@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_gatePass"
+        android:icon="@drawable/gate_pass"
+        android:title="@string/gate_pass" />
+    <item
+        android:id="@+id/nav_leavePass"
+        android:icon="@drawable/leave_pass"
+        android:title="@string/leave_pass" />
+
+</menu>

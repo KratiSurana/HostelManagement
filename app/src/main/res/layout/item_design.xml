@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:id="@+id/recyclerViewStudent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="95dp">
+
+        <androidx.cardview.widget.CardView
+            android:layout_height="60dp"
+            android:layout_width="60dp"
+            android:id="@+id/cardImageView"
+            app:cardCornerRadius="60dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            >
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="60dp"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                android:src="@drawable/admin"></ImageView>
+        </androidx.cardview.widget.CardView>
+        <TextView android:layout_height="30dp"
+            android:layout_width="120dp"
+            android:hint="Student Name"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_toRightOf="@id/cardImageView"
+            android:id="@+id/studentName"
+            >
+        </TextView>
+
+        <TextView
+            android:id="@+id/time"
+            android:layout_width="80dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="75dp"
+            android:layout_toRightOf="@id/studentName"
+            android:hint="Time"
+            android:textColor="#000000"
+            android:textSize="12sp">
+
+        </TextView>
+
+        <TextView android:layout_height="30dp"
+            android:layout_width="140dp"
+            android:hint="Roll Number"
+            android:textColor="#000000"
+            android:textSize="15sp"
+            android:layout_marginLeft="20dp"
+           android:layout_below="@id/studentName"
+            android:layout_toRightOf="@id/cardImageView"
+            android:id="@+id/rollNumber"
+            >
+
+        </TextView>
+
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,1 @@
+package com.example.cdgi_hostel.manager.mainpage.logout;

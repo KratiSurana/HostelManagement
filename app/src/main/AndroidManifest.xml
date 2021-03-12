@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.cdgi_hostel">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".admin.mainpage.ui.payment.PendingActivity"></activity>
+        <activity android:name=".admin.mainpage.ui.payment.PaidActivity" />
+        <activity android:name=".admin.mainpage.ui.pass.LeavepassActivity" />
+        <activity android:name=".admin.mainpage.ui.pass.GatepassActivity" />
+        <activity android:name=".admin.mainpage.ui.room.RoomManagementActivity" />
+        <activity android:name=".admin.mainpage.ui.room.Seater5_Activity" />
+        <activity android:name=".admin.mainpage.ui.room.Seater4Activity" />
+        <activity android:name=".admin.mainpage.ui.room.Seater3_Activity" />
+        <activity android:name=".admin.mainpage.ui.account.studentmanage.status.StatusActivity" />
+        <activity android:name=".admin.mainpage.ui.account.studentmanage.report.ReportActivity" />
+        <activity android:name=".admin.mainpage.ui.account.studentmanage.edit.EditActivity" />
+        <activity android:name=".admin.mainpage.ui.account.messmanage.MessManageActivity" />
+        <activity android:name=".admin.mainpage.ui.account.wardenmanage.WardenManageActivity" />
+        <activity android:name=".admin.mainpage.ui.account.managermanage.ManagerManageActivity" />
+        <activity android:name=".admin.mainpage.ui.account.studentmanage.StudentManageActivity" />
+        <activity android:name=".mess.mainpage.MessMainPageActivity" />
+        <activity
+            android:name=".manager.mainpage.ManagerMainPageActivity"
+            android:label="@string/title_activity_manager_main_page"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".manager.mainpage.setting.SettingFragment"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name=".manager.mainpage.payment.PaymentFragment"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name=".manager.mainpage.pass.PassFragment"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name=".manager.mainpage.notice.NoticeFragment"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name=".manager.mainpage.extra.ExtraFragment"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name=".manager.mainpage.emergency.EmergencyFragment"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name=".manager.mainpage.canteen.CanteenFragment"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name=".manager.mainpage.room.RoomFragment"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name=".admin.mainpage.ui.account.AccountFragment"
+            tools:ignore="Instantiatable" />
+        <activity android:name=".mess.MessLoginActivity" />
+        <activity android:name=".warden.LoginWardenActivity" />
+        <activity android:name=".manager.enter.ManagerLoginActivity" />
+        <activity android:name=".student.LoginStudentActivity" />
+        <activity android:name=".admin.enter.LoginActivity" />
+        <activity android:name=".admin.enter.AdminLoginActivity" />
+        <activity
+            android:name=".admin.mainpage.AdminMainPageActivity"
+            android:label="@string/title_activity_admin_main_page"
+            android:theme="@style/AppTheme.NoActionBar" /> <!-- suppress AndroidDomInspection -->
+        <activity android:name=".admin.enter.register.Register_Mess" />
+        <activity android:name=".admin.enter.register.Register_Warden" />
+        <activity android:name=".admin.enter.register.Register_Manager" />
+        <activity android:name=".admin.enter.register.Register_Student" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".AccountInterface" />
+    </application>
+
+</manifest>

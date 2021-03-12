@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/bottom_account_navigation"
+    app:startDestination="@id/nav_report">
+
+        <activity
+            android:id="@+id/nav_report"
+            android:name="com.example.cdgi_hostel.admin.mainpage.ui.account.studentmanage.report.ReportActivity"
+            android:label="navigation_report"
+            tools:layout="@layout/activity_report" />
+
+    <activity
+        android:id="@+id/nav_edit"
+        android:label="navigation_edit"
+        android:name="com.example.cdgi_hostel.admin.mainpage.ui.account.studentmanage.edit.EditActivity"
+        tools:layout="@layout/activity_edit" />
+
+        <activity
+            android:id="@+id/nav_status"
+            android:name="com.example.cdgi_hostel.admin.mainpage.ui.account.studentmanage.status.StatusActivity"
+            android:label="navigation_status"
+            tools:layout="@layout/activity_status" />
+    </navigation>
+
+
+
+
+

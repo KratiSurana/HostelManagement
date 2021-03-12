@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.cdgi_hostel.admin.mainpage.ui.HomeFragment"
+        android:label="@string/home"
+        tools:layout="@layout/fragment_account" />
+
+    <fragment
+        android:id="@+id/nav_account"
+        android:name="com.example.cdgi_hostel.admin.mainpage.ui.account.AccountFragment"
+        android:label="@string/menu_account"
+        tools:layout="@layout/fragment_account" />
+    <fragment
+        android:id="@+id/nav_room"
+        android:name="com.example.cdgi_hostel.admin.mainpage.ui.room.RoomFragment"
+        android:label="Room"
+        tools:layout="@layout/fragment_room"/>
+    <fragment
+        android:id="@+id/nav_canteen"
+        android:name="com.example.cdgi_hostel.admin.mainpage.ui.canteen.CanteenFragment"
+        android:label="Canteen"
+        tools:layout="@layout/fragment_canteen" />
+    <fragment
+        android:id="@+id/nav_pass"
+        android:name="com.example.cdgi_hostel.admin.mainpage.ui.pass.PassFragment"
+        android:label="Pass"
+        tools:layout="@layout/fragment_pass" />
+    <fragment
+        android:id="@+id/nav_emergency"
+        android:name="com.example.cdgi_hostel.admin.mainpage.ui.emergency.EmergencyFragment"
+        android:label="Emergency"
+        tools:layout="@layout/fragment_emergency" />
+    <fragment
+        android:id="@+id/nav_payment"
+        android:name="com.example.cdgi_hostel.admin.mainpage.ui.payment.PaymentFragment"
+        android:label="Payment"
+        tools:layout="@layout/fragment_payment" />
+    <fragment
+        android:id="@+id/nav_notice"
+        android:name="com.example.cdgi_hostel.admin.mainpage.ui.notice.NoticeFragment"
+        android:label="Notice"
+        tools:layout="@layout/fragment_notice" />
+
+
+
+    <fragment
+        android:id="@+id/nav_extra"
+        android:name="com.example.cdgi_hostel.admin.mainpage.ui.extra.ExtraFragment"
+        android:label="Extra"
+        tools:layout="@layout/fragment_extra" />
+
+    <fragment
+        android:id="@+id/nav_settings"
+        android:name="com.example.cdgi_hostel.admin.mainpage.ui.setting.SettingFragment"
+        android:label="Setting"
+        tools:layout="@layout/fragment_setting" />
+
+    <fragment
+        android:id="@+id/nav_logout"
+        android:name="com.example.cdgi_hostel.admin.mainpage.ui."
+        android:label="Logout"
+        tools:layout="@layout/fragment_logout" />
+
+
+</navigation>
